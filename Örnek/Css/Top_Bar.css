@@ -1,0 +1,67 @@
+body 
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+}
+
+.Top_Bar 
+{
+    background-color: #c8102e; 
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #f5f5f5; 
+    border-radius: 5px; 
+
+    margin-bottom: 10px;
+}
+
+.Top_Bar .Logo img 
+{
+    height: 25px; 
+    margin: 3px;
+    padding: 2px; 
+    border: 1px solid #f5f5f5; 
+    border-radius: 5px; 
+}
+
+.Top_Bar .Site_Title
+{
+    flex-grow: 1;  
+    /*text-align: center; */
+    font-size: 24px; /* */
+    font-size: 20px 0; 
+}
+
+.Top_Bar .Menu a 
+{
+    color: white;
+    text-decoration: none;
+    margin: 0 21px;
+    transition: color 0.3s;
+}
+
+.Top_Bar .menu a:hover 
+{
+    color: #ffcc00; 
+}
+
+section 
+{
+    padding: 10px;
+    text-align: center;
+}
+
+h1 
+{
+    color: #333; 
+}
+
+p 
+{
+    color: #666; 
+}
