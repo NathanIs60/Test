@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="../Css/Go_Up.css">
     <link rel="stylesheet" href="../Css/Menu_Bar.css">
     <link rel="stylesheet" href="../Css/Footer_Bar.css">
+    <link rel="stylesheet" href="../Css/Site_Bir_Test_Css/Hesapla_Btn_Css.css">
     <!-- Java Linkleri -->
      <link rel="stylesheet" href="../Java/Top_Btn.java">
+     <link rel="stylesheet" href="../Java/Site_Bir_Test_Java/Hesapla_Btn_Java.java">
     <!-- Eklenti Linkleri -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cheerio/1.0.0-rc.3/cheerio.min.js"></script>
 
     <title>Test</title>
 </head>
@@ -26,7 +30,7 @@
             </a>
         </div>
         <div class="Site_Title">
-            Ana Sayfa
+            Test Sayfası
         </div>
         <div class="Menu">
             <a href="../Ana_Sayfa.html">
@@ -56,6 +60,7 @@
             <ul class="nav-links">
                 <li><a href="../Ana_Sayfa.html">Ana Sayfa</a></li>
                 <li><a href="Link/Site_bir_Test.html">Test Sitesi</a></li>
+                <li><a href="Liste_Sinav_Ornek.html">Liste</a></li>
             </ul>
         </div>
     </div>
@@ -79,5 +84,36 @@
     <script src="Js/To_Top_Btn.js"></script>
     <!-- En Üste Çıkma Butonu -->
 
+    <!-- Hesap Butonu Vs Denemesi -->
+    <div class="Hesapla_Btn_Css">
+        <button class="Hesapla_Btn">
+            Hesapla
+        </button>
+        <input class="Hesapla_Girdi_Txt" id="tnb-google-search-input" type="text" placeholder="Araştır...">
+        <input class="Hesapla_Cıktı_Txt" type="text" disabled>
+    </div>
+
+    <script src="../Java/Site_Bir_Test_Java/Hesapla_Btn_Java.java"></script>
+    <!-- Hesap Butonu Vs Denemesi -->
+
+
+    <!--<iframe src="https://zzzcode.ai/code-generator" width="100%" height="500" frameborder="0" allowfullscreen sandbox></iframe>-->
+    <!--<iframe src="https://www.codeconvert.ai/free-code-generator" width="100%" height="500" frameborder="0" allowfullscreen sandbox></iframe>-->
+    <iframe src="https://tool-sphere.github.io/tools/code-generator-ai/" width="100%" height="500" frameborder="0" allowfullscreen sandbox></iframe>
+    <style>
+        my-iframe iframe {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-style: none;
+        /* to ensure proper scrolling and overflow handling on 
+        mobile devices, put this styling in a div wrapper around the iframe 
+        because it's unreliable in css: 
+        -webkit-overflow-scrolling: touch; 
+                            overflow: auto; 
+        */
+        }
+    </style>
 </body>
 </html>
